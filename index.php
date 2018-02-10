@@ -2,7 +2,6 @@
 header("Content-type: text/html; charset=utf-8");
 /**
  * Created by PhpStorm.
- * User: Наталья
  * Date: 08.02.2018
  * Time: 18:24
  */
