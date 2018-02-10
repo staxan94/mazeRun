@@ -136,14 +136,6 @@ function displayMaze($maze, $position, $direction) {
     echo "<br>Position: ";
     echo "X(" . $position[0] . ")";
     echo "Y(" . $position[1] . ")";
-
-    echo "<br>Wall: ";
-    if (wallRight($direction,$position,$maze)) {
-        echo "right,";
-    }
-    if (wallBefore($direction,$position,$maze)) {
-        echo "before";
-    }
     echo "</p>";
 }
 
